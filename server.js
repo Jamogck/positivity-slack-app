@@ -2,6 +2,7 @@
 
 const express = require('express')
 const Slapp = require('slapp')
+const ConvoStore = require('slapp-convo-beepboop')
 const Context = require('slapp-context-beepboop')
 
 // use `PORT` env var on Beep Boop - default to 3000 locally
