@@ -34,7 +34,14 @@ slapp.message('help', ['mention', 'direct_message'], (msg) => {
 
 // response to the user typing "inspire me"
 slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
-  msg.say("Shoot for the moon, for if you miss you'll land among the stars. :pray:")
+  msg.say([
+    "Shoot for the moon, for if you miss you'll land among the stars. :pray:", 
+    "You miss 100% of the shots you don't take.",
+    "To see a rainbow, you have to look through the rain. :rainbow:",
+    "It's not the number of breaths we take, but the number of moments that take our breath away. :pray:",
+    "Sing like no one is listening. Love like you've never been hurt. Dance like nobody is watching. :dance:",
+    "Live, laugh, love.",
+     "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :pray:"])
 })
 
 // Can use a regex as well
