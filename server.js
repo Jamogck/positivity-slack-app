@@ -29,9 +29,9 @@ I will respond to the following messages:
 // Setup different handlers for messages
 //*********************************************
 
-// response to the user typing "help"
-slapp.message('help', ['mention', 'direct_message'], (msg) => {
-  msg.say(HELP_TEXT)
+// response to the user typing "inspire me"
+slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
+  msg.say(["Shoot for the moon, for if you miss you'll land among the stars.", ':pray:', ':raised_hands:'])
 })
 
 // "Conversation" flow that tracks state - kicks off when user says hi, hello or hey
@@ -89,20 +89,6 @@ slapp.message(/^(thanks|thank you)/i, ['mention', 'direct_message'], (msg) => {
     ':+1: Of course',
     'Anytime :sun_with_face: :full_moon_with_face:'
   ])
-})
-
-// demonstrate returning an attachment...
-slapp.message('attachment', ['mention', 'direct_message'], (msg) => {
-  msg.say({
-    text: 'Check out this amazing attachment! :confetti_ball: ',
-    attachments: [{
-      text: 'Slapp is a robust open source library that sits on top of the Slack APIs',
-      title: 'Slapp Library - Open Source',
-      image_url: 'https://storage.googleapis.com/beepboophq/_assets/bot-1.22f6fb.png',
-      title_link: 'https://beepboophq.com/',
-      color: '#7CD197'
-    }]
-  })
 })
 
 // Catch-all for any other responses not handled above
