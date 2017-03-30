@@ -2,6 +2,7 @@
 
 const express = require('express')
 const Slapp = require('slapp')
+const Context = require('slapp-context-beepboop')
 
 // use `PORT` env var on Beep Boop - default to 3000 locally
 var port = process.env.PORT || 3000
@@ -14,23 +15,9 @@ var slapp = Slapp({
 })
 
 
-var HELP_TEXT = `
-I will respond to the following messages:
-\`help\` - to see this message.
-\`hi\` - to demonstrate a conversation that tracks state.
-\`thanks\` - to demonstrate a simple response.
-\`<type-any-other-text>\` - to demonstrate a random emoticon response, some of the time :wink:.
-\`attachment\` - to see a Slack attachment message.
-`
-
 //*********************************************
 // Setup different handlers for messages
 //*********************************************
-
-// response to the user typing "help"
-slapp.message('help', ['mention', 'direct_message'], (msg) => {
-  msg.say(HELP_TEXT)
-})
 
 // response to the user typing "inspire me"
 slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
