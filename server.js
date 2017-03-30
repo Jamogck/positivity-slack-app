@@ -29,9 +29,9 @@ I will respond to the following messages:
 // Setup different handlers for messages
 //*********************************************
 
-// response to the user typing "inspire me"
+// response to the user typing "help"
 slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
-  msg.say(["Shoot for the moon, for if you miss you'll land among the stars.", ':pray:', ':raised_hands:'])
+  msg.say("Shoot for the moon, for if you miss you'll land among the stars. :pray:")
 })
 
 // "Conversation" flow that tracks state - kicks off when user says hi, hello or hey
