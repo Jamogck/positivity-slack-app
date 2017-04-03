@@ -31,7 +31,7 @@ slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
     "Live, laugh, love.",
     "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :smile:".
     "You are a friend of God. :pray:",
-    "True love waits."
+    "True love waits.",
     "When life gives you lemons...make lemonade! :lemon:",
     "Be the change you wish to see in the world.",
     "You be you.",
