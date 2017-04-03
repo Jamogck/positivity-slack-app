@@ -25,11 +25,22 @@ slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
   msg.say([
     "Shoot for the moon, for if you miss you'll land among the stars. :pray:", 
     "You miss 100% of the shots you don't take.",
-    "To see a rainbow, you have to look through the rain. :rainbow:",
+    "To see a :rainbow:, you have to look through the rain. ",
     "It's not the number of breaths we take, but the number of moments that take our breath away. :pray:",
-    "Sing like no one is listening. Love like you've never been hurt. Dance like nobody is watching. :dance:",
+    "Sing like no one is listening. Love like you've never been hurt. Dance like nobody is watching. :dancer:",
     "Live, laugh, love.",
-    "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :smile:"
+    "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :smile:".
+    "You are a friend of God. :pray:",
+    "True love waits."
+    "When life gives you lemons...make lemonade! :lemon:",
+    "Be the change you wish to see in the world.",
+    "You be you.",
+    "Be the CEO of your own life.",
+    "You put the life in living",
+    "Your hair looks GREAT!",
+    "You're really athletic!",
+    "You should totally be Insta-famous!",
+    "When life presents obstacles, skip over them and jump as high as you can, for it is when we jump that we can see the rays of sunshine."
   ])
 })
 
