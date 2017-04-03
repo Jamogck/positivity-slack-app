@@ -29,7 +29,7 @@ slapp.message('inspire me', ['mention', 'direct_message'], (msg) => {
     "It's not the number of breaths we take, but the number of moments that take our breath away. :pray:",
     "Sing like no one is listening. Love like you've never been hurt. Dance like nobody is watching. :dancer:",
     "Live, laugh, love.",
-    "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :smile:".
+    "Yesterday is history, tomorrow a mystery and today is a gift. That's why we call it the present. :smile:",
     "You are a friend of God. :pray:",
     "True love waits.",
     "When life gives you lemons...make lemonade! :lemon:",
